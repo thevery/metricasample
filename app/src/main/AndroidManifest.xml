@@ -27,7 +27,7 @@
         <!-- Components for Metrica `START` -->
         <meta-data
             android:name="metrica:api:key"
-            android:value="14731" />
+            android:value="14974" />
 
         <service
             android:name="com.yandex.metrica.MetricaService"
