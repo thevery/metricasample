@@ -66,8 +66,8 @@
         </receiver>
 
         <provider
-            android:name="com.example.playgroundgradle.MetricaContentProvider"
-            android:authorities="com.example.playgroundgradle.MetricaContentProvider"
+            android:name="com.thevery.metricasample.MetricaContentProvider"
+            android:authorities="com.thevery.metricasample.MetricaContentProvider"
             android:exported="true" />
         <!-- Components for Metrica `END` -->
 
