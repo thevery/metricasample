@@ -18,12 +18,14 @@ public class MainActivity extends Activity {
         super.onResume();
         Counter.sharedInstance().onResumeActivity(this);
         Counter.sharedInstance().reportEvent("MainActivity_" + System.currentTimeMillis());
+        Counter.sharedInstance().sendEventsBuffer();
     }
 
     @Override
     protected void onPause() {
         super.onPause();
         Counter.sharedInstance().onPauseActivity(this);
+        Counter.sharedInstance().sendEventsBuffer();
     }
 
 

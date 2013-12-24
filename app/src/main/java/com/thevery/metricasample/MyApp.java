@@ -9,6 +9,5 @@ public class MyApp extends Application {
     public void onCreate() {
         super.onCreate();
         Counter.initialize(this);
-        Counter.sharedInstance().sendEventsBuffer();
     }
 }
